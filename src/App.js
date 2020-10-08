@@ -16,7 +16,7 @@ export default function App() {
       <LayoutBlock>
         <MainPage />
         <ProjectCards />
-        <button>OKOKTINA</button>
+
         <Resume />
         <Contact />
       </LayoutBlock>

@@ -25,13 +25,13 @@ export default function HeaderBlock() {
           <li>|</li>
 
           <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
-            <a href="#contact">CONTACT</a>
+            <a href="#resume">RESUME</a>
           </li>
 
           <li>|</li>
 
           <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
-            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </nav>
