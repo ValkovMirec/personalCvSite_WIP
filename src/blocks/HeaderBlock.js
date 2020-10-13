@@ -1,12 +1,30 @@
 import React, { useEffect, useState } from "react";
 
 export default function HeaderBlock() {
+
   const [scroll, setScroll] = useState(false);
 
+  const [scrollUp, setScrollUp] = useState()
+/*
   useEffect(() => {}, []);
   window.addEventListener("scroll", () => {
     setScroll(window.scrollY > 10);
-  });
+  },[]);
+*/
+  useEffect(() => {
+
+    window.addEventListener("scroll", () => {
+    setScroll(window.scrollY > 10);
+
+    })
+  }, [])
+
+   useEffect(() => {}, []);
+  window.addEventListener("scrollUp", () => {
+    setScrollUp(window.scrollY < 10);
+  },[]);
+
+
 
   return (
     <div className={scroll ? "sticky" : "navbar"}>
@@ -38,3 +56,36 @@ export default function HeaderBlock() {
     </div>
   );
 }
+
+/*
+
+ <div className={scroll ? "sticky" : "navbar"}>
+      <nav>
+        <ul>
+          <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
+            <a href="#root">HOME</a>
+          </li>
+
+          <li>|</li>
+
+          <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
+            <a href="#projects">PROJECTS</a>
+          </li>
+
+          <li>|</li>
+
+          <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
+            <a href="#resume">RESUME</a>
+          </li>
+
+          <li>|</li>
+
+          <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+*/
