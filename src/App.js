@@ -17,7 +17,7 @@ export default function App() {
         <MainPage />
         <ProjectCards />
 
-        <Resume />
+        <Resume  />
         <Contact />
       </LayoutBlock>
     </div>

@@ -4,7 +4,7 @@ export default function HeaderBlock() {
 
   const [scroll, setScroll] = useState(false);
 
-  const [scrollUp, setScrollUp] = useState()
+
 /*
   useEffect(() => {}, []);
   window.addEventListener("scroll", () => {
@@ -19,10 +19,7 @@ export default function HeaderBlock() {
     })
   }, [])
 
-   useEffect(() => {}, []);
-  window.addEventListener("scrollUp", () => {
-    setScrollUp(window.scrollY < 10);
-  },[]);
+
 
 
 

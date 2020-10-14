@@ -1,4 +1,8 @@
 import React from "react";
+import DownloadCV from './DownloadCV'
+import MyPDF from '../docs/Valkovic-CV.pdf';
+
+
 
 export default function Resume() {
   return (
@@ -37,7 +41,7 @@ export default function Resume() {
           ></img>
           <div className="resume-download-button">
             <h3>Download resume here:</h3>
-            <button className="form-submit-button">Click</button>
+            <DownloadCV src={MyPDF}>Click</DownloadCV>
           </div>
         </div>
       </div>
