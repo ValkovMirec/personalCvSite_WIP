@@ -11,25 +11,18 @@ export default function Resume() {
         <div className="about-me">
           <h3>About me</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            auctor, nulla vel consequat tempus, odio diam interdum erat, ac
-            interdum quam mauris sed tortor. Etiam convallis dolor ipsum, vel
-            vulputate dui aliquet quis. Quisque ultricies mauris enim.
-            Pellentesque pulvinar bibendum orci et vehicula. Duis tincidunt
-            laoreet molestie. Proin consectetur ut odio non sagittis. Aliquam
-            vulputate molestie lacus, a accumsan ipsum lobortis ac. Suspendisse
-            potenti. Morbi tempor nec ex id porttitor. Suspendisse sit amet
-            magna facilisis, vehicula odio in, pharetra purus. Sed quis nulla
-            aliquam, tristique nisi a, pretium tellus. Pellentesque posuere
-            ullamcorper accumsan. Praesent nec elit eros. Vestibulum tristique
-            vel metus quis congue. Pellentesque sed malesuada diam. Etiam leo
-            orci, sodales eu neque eget, aliquam cursus orci. Proin facilisis
-            consectetur quam. Maecenas fermentum turpis sem, sed dignissim mi
-            luctus quis. Nullam et dapibus odio, nec rhoncus urna. Phasellus
-            sodales enim a mauris scelerisque, et dapibus tellus euismod. Nullam
-            at tellus ut ipsum porttitor dapibus ac eget magna. Nunc ullamcorper
-            sodales ex, at suscipit est blandit quis. Quisque efficitur varius
-            accumsan.
+
+
+              I am junior web developer based in Hlohovec, Slovakia,
+              and don't have any problems with relocating. I have experience with
+              React.js, Javascript ES6, HTML, CSS3 on advanced levels. I am not
+              lost in a npm packages either, like: React bootstrap, React router etc.
+              I've attended and finished, React.JS/Javascript web developer course,
+              from Learn2Code. Number of my certificate is: 2020/121.
+              Main thing a wanted to say is, that I love poke around and learn new
+              things about Front-end development. It's my hobby.
+
+
           </p>
         </div>
 
