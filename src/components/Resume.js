@@ -20,7 +20,8 @@ export default function Resume() {
               I've attended and finished, React.JS/Javascript web developer course,
               from Learn2Code. Number of my certificate is: 2020/121.
               Main thing a wanted to say is, that I love poke around and learn new
-              things about Front-end development. It's my hobby.
+              things about Front-end development. It's my hobby, and I'm really
+              looking forward to work with you.
 
 
           </p>
