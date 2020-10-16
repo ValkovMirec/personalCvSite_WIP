@@ -21,8 +21,8 @@ body {
   transition: all 0.3s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* overflow-y: scroll;
-  overflow-x: hidden;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /*
@@ -33,7 +33,7 @@ code {
 
 .background {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
 }
@@ -462,7 +462,7 @@ form textarea {
 .resume-download-button {
   text-align: center;
   /*position: relative;*/
-  bottom: 103px;
+  bottom: 4.12em;
   padding: 1.5em;
 
   width: 15em;
@@ -477,14 +477,14 @@ form textarea {
 }
 
 .resume-download-button h3 {
-  margin-bottom: 35px;
+  margin-bottom: 1.3em;
 }
 
 .cv {
   border: 2px solid black;
   border-radius: 0.5em;
-  padding: 12px;
-  margin-top: 0%;
+  padding: 0.48em;
+  margin-top: 0;
 }
 
 .cv:hover {
@@ -493,7 +493,7 @@ form textarea {
 }
 
 .my-photo {
-  height: 400px;
+  height: 25em;
   border-radius: 1.5em;
   margin: 0 auto;
   opacity: 0.5;
@@ -512,4 +512,10 @@ form textarea {
 
 .layout-children {
   max-width: 100vw;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 2em;
+  font-size: 1.2em;
 }

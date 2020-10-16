@@ -14,14 +14,18 @@ export default function Resume() {
 
 
               I am junior web developer based in Hlohovec, Slovakia,
-              and don't have any problems with relocating. I have experience with
-              React.js, Javascript ES6, HTML, CSS3 on advanced levels. I am not
-              lost in a npm packages either, like: React bootstrap, React router etc.
-              I've attended and finished, React.JS/Javascript web developer course,
-              from Learn2Code. Number of my certificate is: 2020/121.
-              Main thing a wanted to say is, that I love poke around and learn new
-              things about Front-end development. It's my hobby, and I'm really
-              looking forward to work with you.
+              and don't have any problems with relocating. I've had programming
+              classes on school, but after I finished, I choose a different path.
+              After few years, my life has started to bore me. I remembered, that
+              programming was one of the few things that I liked in school, so
+              I've decided to returned to that. Trying online courses and learning
+              myself.I have experience with React.js, Javascript ES6, HTML, CSS3 on
+              intermediate level. I am not lost in a npm packages either, like:
+              React bootstrap, React router etc. I've attended and finished,
+              React.JS/Javascript web developer course, from Learn2Code. Number
+              of my certificate is: 2020/121. Main thing a wanted to say is,
+              that I love poke around and learn new things about programming.
+              It's my hobby, and I'm really looking forward to work with you.
 
 
           </p>
