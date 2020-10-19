@@ -13,13 +13,12 @@ export default function Resume() {
           <p>
 
 
-              I am junior web developer based in Hlohovec, Slovakia,
-              and don't have any problems with relocating. I've had programming
+              I am junior web developer based in Hlohovec, Slovakia. I've had programming
               classes on school, but after I finished, I choose a different path.
-              After few years, my life has started to bore me. I remembered, that
+              After few years, my professional life has started to bore me. I remembered, that
               programming was one of the few things that I liked in school, so
-              I've decided to returned to that. Trying online courses and learning
-              myself.I have experience with React.js, Javascript ES6, HTML, CSS3 on
+              I've decided to return to it. I tried online courses and learning
+              myself. I have experience with React.js, Javascript ES6, HTML, CSS3 on
               intermediate level. I am not lost in a npm packages either, like:
               React bootstrap, React router etc. I've attended and finished,
               React.JS/Javascript web developer course, from Learn2Code. Number
@@ -39,7 +38,7 @@ export default function Resume() {
           ></img>
           <div className="resume-download-button">
             <h3>Download resume here:</h3>
-            <DownloadCV src={MyPDF}>Click</DownloadCV>
+            <DownloadCV src={MyPDF} data-aos="zoom-in" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='1200'>Click</DownloadCV>
           </div>
         </div>
       </div>

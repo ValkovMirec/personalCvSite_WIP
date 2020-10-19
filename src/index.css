@@ -282,11 +282,16 @@ a:hover {
   height: 100vh;
   width: 100vw;
   border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact-container {
   display: flex;
   justify-content: center;
+  z-index: -1;
 }
 
 #contact-form {
@@ -338,6 +343,10 @@ a:hover {
   border-radius: 1.5em;
   margin-right: 4em;
   margin-top: auto;
+  -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 form textarea {
@@ -362,6 +371,10 @@ form textarea {
   text-align: center;
 
   margin-top: 18%;
+  -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 .other-contacts p {

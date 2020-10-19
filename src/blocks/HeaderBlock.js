@@ -27,6 +27,7 @@ export default function HeaderBlock() {
     <div className={scroll ? "sticky" : "navbar"}>
       <nav>
         <ul>
+
           <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
             <a href="#root">HOME</a>
           </li>
@@ -34,13 +35,13 @@ export default function HeaderBlock() {
           <li>|</li>
 
           <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
-            <a href="#projects">PROJECTS</a>
+            <a href="#resume">RESUME</a>
           </li>
 
           <li>|</li>
 
           <li className={scroll ? "nav-bar-dest-side" : "nav-bar-dest-top"}>
-            <a href="#resume">RESUME</a>
+            <a href="#projects">PROJECTS</a>
           </li>
 
           <li>|</li>

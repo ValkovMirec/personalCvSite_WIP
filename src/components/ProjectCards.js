@@ -9,7 +9,7 @@ export default function ProjectCards() {
   return (
     <div className="project-cards" id="projects">
       <div className="cards-container">
-        <Card style={{ width: "18rem" }} className="single-card">
+        <Card style={{ width: "18rem" }} className="single-card" data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -21,7 +21,7 @@ export default function ProjectCards() {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "18rem" }} className="single-card">
+        <Card style={{ width: "18rem" }} className="single-card" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-sine" data-aos-duration='300'>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -33,7 +33,7 @@ export default function ProjectCards() {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "18rem" }} className="single-card">
+        <Card style={{ width: "18rem" }} className="single-card" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease-in-sine" data-aos-duration='300'>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>

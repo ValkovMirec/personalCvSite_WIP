@@ -3,11 +3,11 @@ import EmailForm from "./EmailForm";
 
 export default function Contact() {
   return (
-    <div className="contact" id="contact">
-      <div className="contact-container">
+    <div className="contact" id="contact" >
+      <div className="contact-container" >
         <EmailForm />
-        <p className="or-element">or</p>
-        <div className="other-contacts">
+        <p className="or-element" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-sine" data-aos-duration='1200'>or</p>
+        <div className="other-contacts" data-aos="zoom-out" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='800'>
           <p>Miroslav Valkovič</p>
           <p>
             valkovic.m@protonmail.com

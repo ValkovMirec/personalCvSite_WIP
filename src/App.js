@@ -11,13 +11,15 @@ import Resume from "./components/Resume";
 //background animation
 
 export default function App() {
-  return (
-    <div className="app-container">
-      <LayoutBlock>
-        <MainPage />
-        <ProjectCards />
 
+
+
+  return (
+    <div className="app-container" >
+      <LayoutBlock >
+        <MainPage />
         <Resume  />
+        <ProjectCards />
         <Contact />
       </LayoutBlock>
     </div>

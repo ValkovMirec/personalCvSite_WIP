@@ -28,8 +28,8 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="email-form-container">
-      <form id="contact-form" onSubmit={sendEmailHandler}>
+    <div className="email-form-container" data-aos="zoom-out" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='1200'>
+      <form id="contact-form" onSubmit={sendEmailHandler} >
         <input type="hidden" name="contact_number" />
         <div className="input-field-row">
           <div className="input-field-name">
