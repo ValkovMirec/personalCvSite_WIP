@@ -24,7 +24,7 @@ export default function HeaderBlock() {
 
 
   return (
-    <div className={scroll ? "sticky" : "navbar"}>
+    <div className={scroll ? "sticky" : "navbar"} >
       <nav>
         <ul>
 

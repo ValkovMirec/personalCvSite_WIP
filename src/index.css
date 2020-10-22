@@ -403,6 +403,10 @@ form textarea {
   background-size: cover;
 
   border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
+    7px 9px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 .cards-container {
@@ -435,9 +439,10 @@ form textarea {
 }
 
 .resume-content-container {
+  width: 100vw;
+  padding-top: 6em;
   display: flex;
   justify-content: space-around;
-  width: 100vw;
 }
 
 .about-me {
@@ -445,9 +450,8 @@ form textarea {
   padding: 1.5em;
   margin-left: 5em;
   width: 40em;
-  background-color: rgba(216, 216, 216, 0.2);
-  border-radius: 1.5em;
-
+  color: white;
+  border: 4px solid white;
   -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
     7px 9px 8px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
@@ -464,25 +468,20 @@ form textarea {
 }
 
 .resume-download {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-top: 8em;
+  margin-right: 5em;
   padding: 1em;
   width: 20em;
 }
 
 .resume-download-button {
   text-align: center;
-  /*position: relative;*/
   bottom: 4.12em;
   padding: 1.5em;
-
-  width: 15em;
+  color: white;
+  width: 12.8em;
   height: 7.5em;
-  background-color: rgba(216, 216, 216, 0.2);
+  border: 5px solid white;
   font-size: 1.6em;
-  border-radius: 1.5em;
   -webkit-box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
     7px 9px 8px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
@@ -494,20 +493,21 @@ form textarea {
 }
 
 .cv {
-  border: 2px solid black;
-  border-radius: 0.5em;
+  border: 4px solid white;
   padding: 0.48em;
   margin-top: 0;
 }
 
 .cv:hover {
   box-shadow: 1px 1px white;
+  color: white;
   background-color: red;
 }
 
 .my-photo {
-  height: 25em;
-  border-radius: 1.5em;
+  width: 20.5em;
+  border: 4px solid white;
+  /*border-radius: 1.5em;*/
   margin: 0 auto;
   opacity: 0.5;
   margin-bottom: 5em;
@@ -515,6 +515,28 @@ form textarea {
     7px 9px 8px 4px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 10px 13px -7px rgba(0, 0, 0),
     7px 9px 8px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* footer */
+
+.profile-link {
+  color: black;
+  margin: 0.2em;
+}
+
+.my-profiles {
+  margin: 1em auto;
+  padding: 2em 0.5em 0.1em 0.5em;
+}
+
+.footer-other {
+}
+
+.footer-content {
+  padding: 0.5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
 }
 
 /* layout */
@@ -525,10 +547,4 @@ form textarea {
 
 .layout-children {
   max-width: 100vw;
-}
-
-.footer-content {
-  text-align: center;
-  padding: 2em;
-  font-size: 1.2em;
 }

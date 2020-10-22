@@ -8,9 +8,9 @@ export default function Resume() {
   return (
     <div className="resume" id="resume">
       <div className="resume-content-container">
-        <div className="about-me">
-          <h3>About me</h3>
-          <p>
+        <div className="about-me" data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'>
+          <h3 data-aos="zoom-in" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'>About me</h3>
+          <p data-aos="zoom-in" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'>
 
 
               I am junior web developer based in Hlohovec, Slovakia. I've had programming
@@ -21,9 +21,8 @@ export default function Resume() {
               myself. I have experience with React.js, Javascript ES6, HTML, CSS3 on
               intermediate level. I am not lost in a npm packages either, like:
               React bootstrap, React router etc. I've attended and finished,
-              React.JS/Javascript web developer course, from Learn2Code. Number
-              of my certificate is: 2020/121. Main thing a wanted to say is,
-              that I love poke around and learn new things about programming.
+              React.JS/Javascript web developer course, from Learn2Code. Main thing a wanted
+              to say is, that I love poke around and learn new things about programming.
               It's my hobby, and I'm really looking forward to work with you.
 
 
@@ -35,8 +34,9 @@ export default function Resume() {
             className="my-photo"
             src={require("../img/portrait.png")}
             alt="Miroslav Valkovic"
+            data-aos="fade-down-left" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'
           ></img>
-          <div className="resume-download-button">
+          <div className="resume-download-button" data-aos="fade-up-left" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='300'>
             <h3>Download resume here:</h3>
             <DownloadCV src={MyPDF} data-aos="zoom-in" data-aos-delay="0" data-aos-easing="ease-in-sine" data-aos-duration='1200'>Click</DownloadCV>
           </div>
