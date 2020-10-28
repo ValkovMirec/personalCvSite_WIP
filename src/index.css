@@ -583,6 +583,28 @@ form textarea {
 
 /* Responsive */
 
+@media (max-width: 1250px) {
+  .project-card-button {
+    display: block;
+    width: 8em;
+    margin: 1em auto;
+  }
+
+  .card-buton-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .single-card {
+    height: fit-content;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 1100px) {
   .about-me {
     font-size: 0.8em;
@@ -590,6 +612,10 @@ form textarea {
 
   .my-photo {
     width: 12.7em;
+  }
+
+  .resume-download {
+    margin: 0;
   }
 
   .resume-download-button {
@@ -642,6 +668,22 @@ form textarea {
   .resume-download-button {
     height: 8.3em;
     width: 10em;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-me {
+    width: 370px;
+    height: fit-content;
+  }
+
+  .resume {
+    height: fit-content;
+  }
+
+  .resume-download {
+    width: 370px;
+    padding: 0;
   }
 }
 
