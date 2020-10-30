@@ -4,7 +4,7 @@ import { TiThMenuOutline } from 'react-icons/ti';
 import { IconContext } from "react-icons";
 
 export default function HeaderBlock() {
-
+/*
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
@@ -14,7 +14,17 @@ export default function HeaderBlock() {
 
     })
   }, [])
+*/
+  function hamburgerHandler() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
+/*
   const hamburgerHandler = () => {
     const el = document.getElementById('top-navbar');
 
@@ -24,7 +34,8 @@ export default function HeaderBlock() {
       el.className = 'navbar sticky'
     }
   }
-
+*/
+/*
   return (
     <div id='top-navbar' className={scroll ? "sticky" : "navbar"} >
       <nav>
@@ -60,8 +71,24 @@ export default function HeaderBlock() {
       </nav>
     </div>
   );
-}
+*/
 
+return (
+  <div className="topnav" id="myTopnav" >
+    <div class='hamburger-container'>
+      <IconContext.Provider value={{  className: "global-class-name", size: '2.5em'}}>
+        <a href='javascript:void(0);' className='icon' onClick={hamburgerHandler}><TiThMenuOutline /></a>
+      </IconContext.Provider>
+    </div>
+        <div className='nav-destination'>
+          <a href="#root">HOME</a>
+          <a href="#resume">RESUME</a>
+          <a href="#projects">PROJECTS</a>
+         <a href="#contact">CONTACT</a>
+        </div>
+  </div>
+)
+}
 /*
 
  <div className={scroll ? "sticky" : "navbar"}>
